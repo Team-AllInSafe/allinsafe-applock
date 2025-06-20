@@ -1,0 +1,20 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id main
+id unlockButton
+layout activity_alarm
+layout activity_main
+layout overlay_lock_screen
+mipmap ic_launcher
+mipmap ic_launcher_round
+string accessibility_service_description
+string app_name
+style Base.Theme.Package_permission
+style Theme.Package_permission
+xml accessibility_service_config
+xml backup_rules
+xml data_extraction_rules

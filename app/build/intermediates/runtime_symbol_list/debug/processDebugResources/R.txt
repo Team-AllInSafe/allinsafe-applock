@@ -3175,6 +3175,9 @@ int id animateToEnd 0x7f08004c
 int id animateToStart 0x7f08004d
 int id antiClockwise 0x7f08004e
 int id anticipate 0x7f08004f
+int id appIcon 0x7f0801f6
+int id appListView 0x7f0801f7
+int id appName 0x7f0801f8
 int id arc 0x7f080050
 int id asConfigured 0x7f080051
 int id async 0x7f080052
@@ -3206,6 +3209,7 @@ int id center_vertical 0x7f08006b
 int id chain 0x7f08006c
 int id chain2 0x7f08006d
 int id chains 0x7f08006e
+int id checkBox 0x7f0801f9
 int id checkbox 0x7f08006f
 int id checked 0x7f080070
 int id chronometer 0x7f080071
@@ -3268,6 +3272,7 @@ int id east 0x7f0800a9
 int id edge 0x7f0800aa
 int id edit_query 0x7f0800ab
 int id edit_text_id 0x7f0800ac
+int id editlockappsbtn 0x7f0801fa
 int id elastic 0x7f0800ad
 int id embed 0x7f0800ae
 int id end 0x7f0800af
@@ -3298,6 +3303,7 @@ int id fullscreen_header 0x7f0800c7
 int id ghost_view 0x7f0800c8
 int id ghost_view_holder 0x7f0800c9
 int id gone 0x7f0800ca
+int id gotohome 0x7f0801fb
 int id graph 0x7f0800cb
 int id graph_wrap 0x7f0800cc
 int id group_divider 0x7f0800cd
@@ -3337,7 +3343,6 @@ int id linear 0x7f0800ee
 int id listMode 0x7f0800ef
 int id list_item 0x7f0800f0
 int id m3_side_sheet 0x7f0800f1
-int id main 0x7f0800f2
 int id marquee 0x7f0800f3
 int id masked 0x7f0800f4
 int id match_constraint 0x7f0800f5
@@ -3418,6 +3423,7 @@ int id notification_main_column_container 0x7f08013f
 int id off 0x7f080140
 int id on 0x7f080141
 int id onInterceptTouchReturnSwipe 0x7f080142
+int id onoffbtn 0x7f0801fc
 int id open_search_bar_text_view 0x7f080143
 int id open_search_view_background 0x7f080144
 int id open_search_view_clear_button 0x7f080145
@@ -3712,7 +3718,9 @@ int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
 int layout activity_alarm 0x7f0b001c
+int layout activity_edit_lock_app 0x7f0b006f
 int layout activity_main 0x7f0b001d
+int layout app_list_item 0x7f0b006e
 int layout custom_dialog 0x7f0b001e
 int layout design_bottom_navigation_item 0x7f0b001f
 int layout design_bottom_sheet_dialog 0x7f0b0020

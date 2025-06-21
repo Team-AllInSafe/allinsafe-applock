@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.4\\com.naver.appLock.app-mergeDebugResources-30:\\layout\\activity_alarm.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.4\\com.naver.appLock.app-main-33:\\layout\\activity_alarm.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.4\\com.naver.appLock.app-mergeDebugResources-30:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.4\\com.naver.appLock.app-main-33:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.4\\com.naver.appLock.app-mergeDebugResources-30:\\layout\\activity_edit_lock_app.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.4\\com.naver.appLock.app-main-33:\\layout\\activity_edit_lock_app.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.4\\com.naver.appLock.app-mergeDebugResources-30:\\layout\\app_list_item.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.4\\com.naver.appLock.app-main-33:\\layout\\app_list_item.xml"
+    },
+    {
+        "merged": "com.naver.appLock.app-mergeDebugResources-30:/layout/activity_main.xml",
+        "source": "com.naver.appLock.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.4\\com.naver.appLock.app-mergeDebugResources-30:\\layout\\overlay_lock_screen.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.4\\com.naver.appLock.app-main-33:\\layout\\overlay_lock_screen.xml"
+    }
+]

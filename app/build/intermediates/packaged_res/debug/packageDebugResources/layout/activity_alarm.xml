@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".AlarmActivity"
-    android:layout_gravity="center">
+    android:gravity="center"
+    android:orientation="vertical">
 
     <TextView
         android:layout_width="match_parent"
@@ -13,6 +14,16 @@
         android:layout_gravity="center"
         android:textSize="30dp"
         android:textAlignment="center"
-        android:text="instargram 감지 됨"/>
+        android:text="잠긴 앱"
+        android:padding="30dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="홈 화면으로"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:id="@+id/gotohome"/>
+
 
 </LinearLayout>

@@ -7,6 +7,10 @@ android {
     namespace = "com.naver.appLock"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.naver.appLock"
         minSdk = 24

@@ -3176,6 +3176,9 @@ id animateToEnd
 id animateToStart
 id antiClockwise
 id anticipate
+id appIcon
+id appListView
+id appName
 id arc
 id asConfigured
 id async
@@ -3207,6 +3210,7 @@ id center_vertical
 id chain
 id chain2
 id chains
+id checkBox
 id checkbox
 id checked
 id chronometer
@@ -3269,6 +3273,7 @@ id east
 id edge
 id edit_query
 id edit_text_id
+id editlockappsbtn
 id elastic
 id embed
 id end
@@ -3299,6 +3304,7 @@ id fullscreen_header
 id ghost_view
 id ghost_view_holder
 id gone
+id gotohome
 id graph
 id graph_wrap
 id group_divider
@@ -3338,7 +3344,6 @@ id linear
 id listMode
 id list_item
 id m3_side_sheet
-id main
 id marquee
 id masked
 id match_constraint
@@ -3419,6 +3424,7 @@ id notification_main_column_container
 id off
 id on
 id onInterceptTouchReturnSwipe
+id onoffbtn
 id open_search_bar_text_view
 id open_search_view_background
 id open_search_view_clear_button
@@ -3713,7 +3719,9 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_alarm
+layout activity_edit_lock_app
 layout activity_main
+layout app_list_item
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

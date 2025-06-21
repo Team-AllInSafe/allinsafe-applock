@@ -1,9 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:2:1-48:12
-INJECTED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:2:1-48:12
-INJECTED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:2:1-48:12
-INJECTED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:2:1-48:12
+ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:2:1-52:12
+MERGED from [androidx.databinding:viewbinding:8.3.1] C:\Users\User\.gradle\caches\transforms-3\fcf5f3534d2797d90d840b7f1d899f81\transformed\viewbinding-8.3.1\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\User\.gradle\caches\transforms-3\7539489da48b4512ed13eab4204306f7\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\User\.gradle\caches\transforms-3\89065a36ea6dc29d22f39d9f3a201aff\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\User\.gradle\caches\transforms-3\e03e07afe9e17aafe4c7b254a0bab1db\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
@@ -33,7 +34,6 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\User\.gr
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\User\.gradle\caches\transforms-3\849c9caf9cc910dbf84cb4663cac24e5\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\User\.gradle\caches\transforms-3\372964bc383f0de5f86bf3b1627efdd6\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\User\.gradle\caches\transforms-3\a1b73a0741fc6b022ee1c6fbd191ef49\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\User\.gradle\caches\transforms-3\4790359cd88af9a77b42f0a2a5ebcc3f\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\User\.gradle\caches\transforms-3\134d419363ca93a27a6ef2fb46c0fa3b\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\transforms-3\d6b034e7028bf579e9385cb7810adcce\transformed\profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\User\.gradle\caches\transforms-3\376c151a14a1af72e95d38b80af90dca\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -45,6 +45,7 @@ MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\User\.gradle\caches
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\User\.gradle\caches\transforms-3\1d9d44765bf8f24b89897ec1b7038e79\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\User\.gradle\caches\transforms-3\d210a32a8df20050533d1663a941016a\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\User\.gradle\caches\transforms-3\4df216f9c841fc3f13e5d9fa90d22d4c\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\User\.gradle\caches\transforms-3\4790359cd88af9a77b42f0a2a5ebcc3f\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
 	package
 		INJECTED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -55,9 +56,15 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\User\.gradle\caches\transforms
 		INJECTED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.QUERY_ALL_PACKAGES
+ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:8:5-10:53
+	tools:ignore
+		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:10:9-50
+	android:name
+		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:9:9-61
 application
-ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:11:5-46:19
-INJECTED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:11:5-46:19
+ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:12:5-50:19
+INJECTED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:12:5-50:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\User\.gradle\caches\transforms-3\7539489da48b4512ed13eab4204306f7\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\User\.gradle\caches\transforms-3\7539489da48b4512ed13eab4204306f7\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\User\.gradle\caches\transforms-3\89065a36ea6dc29d22f39d9f3a201aff\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -79,69 +86,77 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Us
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.1] C:\Users\User\.gradle\caches\transforms-3\ed21a483b03f5a989300db3288b83781\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:18:9-35
+		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:19:9-35
 	android:label
-		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:16:9-41
+		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:17:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:14:9-54
+		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:15:9-54
 	android:roundIcon
-		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:17:9-54
+		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:18:9-54
 	tools:targetApi
-		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:20:9-29
+		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:21:9-29
 	android:icon
-		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:15:9-43
+		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:16:9-43
 	android:allowBackup
-		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:13:9-35
 	android:theme
-		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:19:9-56
+		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:20:9-56
 	android:dataExtractionRules
-		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:13:9-65
+		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:14:9-65
+activity#com.naver.appLock.EditLockAppActivity
+ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:22:9-24:40
+	android:exported
+		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:23:13-48
 activity#com.naver.appLock.AlarmActivity
-ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:21:9-23:40
+ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:25:9-27:40
 	android:exported
-		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:23:13-37
+		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:22:13-42
+		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:26:13-42
 activity#com.naver.appLock.MainActivity
-ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:24:9-32:20
+ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:28:9-36:20
 	android:exported
-		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:26:13-36
+		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:30:13-36
 	android:name
-		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:25:13-41
+		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:29:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:27:13-31:29
+ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:31:13-35:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:28:17-69
+ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:32:17-69
 	android:name
-		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:28:25-66
+		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:32:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:30:17-77
+ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:34:17-77
 	android:name
-		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:30:27-74
+		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:34:27-74
 service#com.naver.appLock.AppLockAccessibilityService
-ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:34:9-45:19
+ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:38:9-49:19
 	android:exported
-		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:36:13-37
+		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:40:13-37
 	android:permission
-		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:37:13-79
+		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:41:13-79
 	android:name
-		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:35:13-56
+		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:39:13-56
 intent-filter#action:name:android.accessibilityservice.AccessibilityService
-ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:38:13-40:29
+ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:42:13-44:29
 action#android.accessibilityservice.AccessibilityService
-ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:39:17-92
+ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:43:17-92
 	android:name
-		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:39:25-89
+		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:43:25-89
 meta-data#android.accessibilityservice
-ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:42:13-44:72
+ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:46:13-48:72
 	android:resource
-		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:44:17-69
+		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:48:17-69
 	android:name
-		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:43:17-60
+		ADDED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml:47:17-60
 uses-sdk
 INJECTED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.3.1] C:\Users\User\.gradle\caches\transforms-3\fcf5f3534d2797d90d840b7f1d899f81\transformed\viewbinding-8.3.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.3.1] C:\Users\User\.gradle\caches\transforms-3\fcf5f3534d2797d90d840b7f1d899f81\transformed\viewbinding-8.3.1\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\User\.gradle\caches\transforms-3\7539489da48b4512ed13eab4204306f7\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\User\.gradle\caches\transforms-3\7539489da48b4512ed13eab4204306f7\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\User\.gradle\caches\transforms-3\89065a36ea6dc29d22f39d9f3a201aff\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
@@ -200,8 +215,6 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\U
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\User\.gradle\caches\transforms-3\372964bc383f0de5f86bf3b1627efdd6\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\User\.gradle\caches\transforms-3\a1b73a0741fc6b022ee1c6fbd191ef49\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\User\.gradle\caches\transforms-3\a1b73a0741fc6b022ee1c6fbd191ef49\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\User\.gradle\caches\transforms-3\4790359cd88af9a77b42f0a2a5ebcc3f\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\User\.gradle\caches\transforms-3\4790359cd88af9a77b42f0a2a5ebcc3f\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\User\.gradle\caches\transforms-3\134d419363ca93a27a6ef2fb46c0fa3b\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\User\.gradle\caches\transforms-3\134d419363ca93a27a6ef2fb46c0fa3b\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\User\.gradle\caches\transforms-3\d6b034e7028bf579e9385cb7810adcce\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
@@ -224,6 +237,8 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\User\.gradle\caches\transforms-3\d210a32a8df20050533d1663a941016a\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\User\.gradle\caches\transforms-3\4df216f9c841fc3f13e5d9fa90d22d4c\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\User\.gradle\caches\transforms-3\4df216f9c841fc3f13e5d9fa90d22d4c\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\User\.gradle\caches\transforms-3\4790359cd88af9a77b42f0a2a5ebcc3f\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\User\.gradle\caches\transforms-3\4790359cd88af9a77b42f0a2a5ebcc3f\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
 	android:targetSdkVersion
 		INJECTED from C:\Users\User\AndroidStudioProjects\appLock\app\src\main\AndroidManifest.xml
 	android:minSdkVersion

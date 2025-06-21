@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="accessibility_service_description">이 서비스는 특정 앱이 실행될 때 잠금 화면을 표시합니다.</string>
+    <string name="app_name">appLock</string>
+    <style name="Base.Theme.Package_permission" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Package_permission" parent="Base.Theme.Package_permission"/>
+</resources>

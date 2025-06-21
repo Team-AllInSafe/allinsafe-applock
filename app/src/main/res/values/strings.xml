@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">appLock</string>
+    <string name="accessibility_service_description">이 서비스는 특정 앱이 실행될 때 잠금 화면을 표시합니다.</string>
+</resources>

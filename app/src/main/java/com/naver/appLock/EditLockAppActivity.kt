@@ -6,6 +6,7 @@ import android.content.pm.ApplicationInfo
 import android.graphics.drawable.Drawable
 import android.os.Build
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -32,14 +33,14 @@ class EditLockAppActivity : AppCompatActivity() {
         val pm = packageManager
         val apps = pm.getInstalledApplications(0)
         // 시스템 앱 제외
-        val userapps = apps.filterNot{ isSystemApp(it)}
+        val userapps = apps.filterNot{ isSystemApp(it) or it.packageName.equals(applicationContext.packageName)}
 
         val appList = userapps.map {
             val name = pm.getApplicationLabel(it).toString()
             val packagename = it.packageName
             val icon = pm.getApplicationIcon(it)
             val isChecked = lockedPackageList.contains(it.packageName)
-            AppInfo(packagename,name, icon)
+            AppInfo(packagename,name, icon,isChecked)
         }
         binding.appListView.adapter = AppListAdapter(this, appList)
 
@@ -50,8 +51,6 @@ class EditLockAppActivity : AppCompatActivity() {
         return (flags and ApplicationInfo.FLAG_SYSTEM == 0) &&
                 (flags and ApplicationInfo.FLAG_UPDATED_SYSTEM_APP == 0)
     }
-
-
 
     @TargetApi(Build.VERSION_CODES.UPSIDE_DOWN_CAKE)
     class AppListAdapter(private val context: Context, private val apps: List<AppInfo>) : BaseAdapter() {
@@ -67,6 +66,7 @@ class EditLockAppActivity : AppCompatActivity() {
             }
 
             val app = apps[position]
+            binding.checkBox.setOnCheckedChangeListener(null)
             binding.appIcon.setImageDrawable(app.icon)
             binding.appName.text = app.name
             binding.checkBox.isChecked = app.isChecked
@@ -75,8 +75,11 @@ class EditLockAppActivity : AppCompatActivity() {
             binding.checkBox.setOnCheckedChangeListener { _, isChecked ->
                 app.isChecked = isChecked
                 //AppLockAccessibilityService에 있는 잠금 목록 업데이트
+//                Log.d("sua", "[잠금 목록 업데이트 전] lockedPackageList : $lockedPackageList")
                 lockedPackageList =
                     apps.filter { it.isChecked }.map { it.packageName }
+
+//                Log.d("sua", "[잠금 목록 업데이트 후] lockedPackageList : $lockedPackageList")
                 saveCheckedApps(context,lockedPackageList)
             }
 

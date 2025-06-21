@@ -7,6 +7,8 @@ import com.naver.appLock.R
 import com.naver.appLock.databinding.ActivityAlarmBinding
 
 class AlarmActivity : AppCompatActivity() {
+    // 앱을 다시 켰을 때, 설정화면이 아닌 잠금 걸었던 락 페이지가 나오는 것을 막기 위한 플래그
+    // 락 페이지 떴을 때 뒤로 갔다면, 다시 우리 앱이 켜졌을 때 mainactivity로 가게끔
     private var wasInBackground = false
     private lateinit var binding:ActivityAlarmBinding
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -20,13 +20,50 @@
         android:theme="@style/Theme.Package_permission"
         tools:targetApi="31">
         <activity
-            android:name=".EditLockAppActivity"
+            android:name=".ac0_main.Ac0_09_user_info"
             android:exported="false" />
         <activity
-            android:name=".AlarmActivity"
+            android:name=".ac0_main.Ac0_00_main_init_main"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".ac1_applock.EditLockAppActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ac1_applock.AlarmActivity"
+            android:exported="false" /> <!-- 여기서부턴 로그인,핀/패턴 -->
+        <activity
+            android:name=".ac0_login.Ac0_02_register"
+            android:exported="false" />
+        <activity
+            android:name=".ac0_patternpin.Ac0_03_choose_pinOrPattern"
+            android:exported="false" />
+        <activity
+            android:name=".ac0_patternpin.Ac0_04_pattern_setup"
+            android:exported="false" />
+        <activity
+            android:name=".ac0_patternpin.Ac0_05_pattern_verify"
+            android:exported="false" />
+        <activity
+            android:name=".ac0_patternpin.Ac0_06_pin_setup"
+            android:exported="false" />
+        <activity
+            android:name=".ac0_patternpin.Ac0_07_pin_verify"
+            android:exported="false" />
+        <activity
+            android:name=".ac0_patternpin.Ac0_08_pinpattern_forwarding"
+            android:exported="false" />
+        <activity
+            android:name=".ac1_applock.Ac1_01_applock_init_main"
+            android:exported="false" /> <!-- <activity  로그인 기능 적용 전 -->
+        <!-- android:name=".ac1_applock.Ac1_01_applock_init_main" -->
+        <!-- android:exported="true"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <activity
+            android:name=".ac0_login.Ac0_01_login"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -36,7 +73,7 @@
         </activity>
 
         <service
-            android:name=".AppLockAccessibilityService"
+            android:name=".ac1_applock.AppLockAccessibilityService"
             android:exported="false"
             android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
             <intent-filter>

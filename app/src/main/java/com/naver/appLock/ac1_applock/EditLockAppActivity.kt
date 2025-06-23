@@ -1,4 +1,4 @@
-package com.naver.appLock
+package com.naver.appLock.ac1_applock
 
 import android.annotation.TargetApi
 import android.content.Context
@@ -6,13 +6,12 @@ import android.content.pm.ApplicationInfo
 import android.graphics.drawable.Drawable
 import android.os.Build
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
 import androidx.appcompat.app.AppCompatActivity
-import com.naver.appLock.AppLockAccessibilityService.Companion.lockedPackageList
+import com.naver.appLock.ac1_applock.AppLockAccessibilityService
 import com.naver.appLock.databinding.ActivityEditLockAppBinding
 import com.naver.appLock.databinding.AppListItemBinding
 
@@ -26,7 +25,7 @@ class EditLockAppActivity : AppCompatActivity() {
     )
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding=ActivityEditLockAppBinding.inflate(layoutInflater)
+        binding= ActivityEditLockAppBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         //초기화면에 앱 목록 짜넣기
@@ -39,7 +38,7 @@ class EditLockAppActivity : AppCompatActivity() {
             val name = pm.getApplicationLabel(it).toString()
             val packagename = it.packageName
             val icon = pm.getApplicationIcon(it)
-            val isChecked = lockedPackageList.contains(it.packageName)
+            val isChecked = AppLockAccessibilityService.Companion.lockedPackageList.contains(it.packageName)
             AppInfo(packagename,name, icon,isChecked)
         }
         binding.appListView.adapter = AppListAdapter(this, appList)
@@ -76,18 +75,18 @@ class EditLockAppActivity : AppCompatActivity() {
                 app.isChecked = isChecked
                 //AppLockAccessibilityService에 있는 잠금 목록 업데이트
 //                Log.d("sua", "[잠금 목록 업데이트 전] lockedPackageList : $lockedPackageList")
-                lockedPackageList =
+                AppLockAccessibilityService.Companion.lockedPackageList =
                     apps.filter { it.isChecked }.map { it.packageName }
 
 //                Log.d("sua", "[잠금 목록 업데이트 후] lockedPackageList : $lockedPackageList")
-                saveCheckedApps(context,lockedPackageList)
+                saveCheckedApps(context, AppLockAccessibilityService.Companion.lockedPackageList)
             }
 
             return binding.root
         }
 
         fun saveCheckedApps(context: Context, checkedApps: List<String>) {
-            val prefs = context.getSharedPreferences("AppPref", Context.MODE_PRIVATE)
+            val prefs = context.getSharedPreferences("AppPref", MODE_PRIVATE)
             prefs.edit()
                 .putStringSet("locked_apps", checkedApps.toSet())
                 .apply()

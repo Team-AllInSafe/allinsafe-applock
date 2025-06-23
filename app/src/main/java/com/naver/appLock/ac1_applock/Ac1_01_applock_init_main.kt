@@ -1,41 +1,30 @@
-package com.naver.appLock
+package com.naver.appLock.ac1_applock
 
 import android.accessibilityservice.AccessibilityService
 import android.annotation.TargetApi
 import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
-import android.content.pm.ApplicationInfo
-import android.content.pm.PackageManager
-import android.graphics.drawable.Drawable
-import android.health.connect.datatypes.AppInfo
 import android.os.Build
 import android.os.Bundle
 import android.provider.Settings
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
-import android.widget.BaseAdapter
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
-import com.naver.appLock.AppLockAccessibilityService.Companion.loadOnoff
-import com.naver.appLock.AppLockAccessibilityService.Companion.onoff
 import com.naver.appLock.databinding.ActivityMainBinding
-import com.naver.appLock.databinding.AppListItemBinding
 
-class MainActivity : AppCompatActivity() { @RequiresApi(Build.VERSION_CODES.TIRAMISU)
-    private lateinit var binding:ActivityMainBinding
+class Ac1_01_applock_init_main : AppCompatActivity() { @RequiresApi(Build.VERSION_CODES.TIRAMISU)
+    private lateinit var binding: ActivityMainBinding
 
     // binding 최소 api 가 33 이라며 오류 뜨길래 TargetApi 추가
     @TargetApi(Build.VERSION_CODES.UPSIDE_DOWN_CAKE)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding=ActivityMainBinding.inflate(layoutInflater)
+        binding= ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         // 사용자가 권한을 확인하면, 화면에 뭔가 바뀔 때 마다 생기는 이벤트를 받아서 그 앱 이름을 확인함
         // 앱 이름 확인하고 잠금 대상이면 종료하는 로직은 AppLockAccessibilityService 에 있음
 
-        if(onoff){
+        if(AppLockAccessibilityService.Companion.onoff){
             binding.onoffbtn.text="끄기"
         }else{
             binding.onoffbtn.text="켜기"
@@ -47,14 +36,14 @@ class MainActivity : AppCompatActivity() { @RequiresApi(Build.VERSION_CODES.TIRA
         }
 
         binding.onoffbtn.setOnClickListener {
-            val pref = getSharedPreferences("AppPref",Context.MODE_PRIVATE)
+            val pref = getSharedPreferences("AppPref", MODE_PRIVATE)
             val edit = pref.edit()
-            edit.putBoolean("onoff",!onoff) // 기존 상태 반전
+            edit.putBoolean("onoff",!AppLockAccessibilityService.Companion.onoff) // 기존 상태 반전
             edit.apply()
-            onoff=!onoff
+            AppLockAccessibilityService.Companion.onoff =!AppLockAccessibilityService.Companion.onoff
 
             // 버튼 글자 바꾸기
-            if(onoff){
+            if(AppLockAccessibilityService.Companion.onoff){
                 binding.onoffbtn.text="끄기"
             }else{
                 binding.onoffbtn.text="켜기"
@@ -63,7 +52,7 @@ class MainActivity : AppCompatActivity() { @RequiresApi(Build.VERSION_CODES.TIRA
 
         // 잠금 앱 선택 및 변경하는 액티비티
         binding.editlockappsbtn.setOnClickListener {
-            val intent=Intent(this,EditLockAppActivity::class.java)
+            val intent= Intent(this, EditLockAppActivity::class.java)
             startActivity(intent)
         }
     }
@@ -82,4 +71,3 @@ class MainActivity : AppCompatActivity() { @RequiresApi(Build.VERSION_CODES.TIRA
     }
 
 }
-

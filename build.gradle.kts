@@ -4,4 +4,6 @@ plugins {
     alias(libs.plugins.jetbrainsKotlinAndroid) apply false
     alias(libs.plugins.google.gms.google.services) apply false
     alias(libs.plugins.kotlin.compose)
+    //alias(libs.plugins.android.application) version libs.versions.agp.get() apply false
+    //alias(libs.plugins.kotlin.android) version libs.versions.kotlin.get() apply false
 }

@@ -8,6 +8,13 @@
     <uses-permission
         android:name="android.permission.QUERY_ALL_PACKAGES"
         tools:ignore="QueryAllPackagesPermission" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+    <uses-permission android:name="neverForLocation" />
 
     <application
         android:allowBackup="true"
@@ -58,6 +65,15 @@
         <activity
             android:name=".ac4_screenlock.Ac4_01_screenlock_main"
             android:exported="false" />
+        <activity
+            android:name=".ac2_btmanage.Ac2_02_bluetooth_trust_device"
+            android:exported="false" />
+        <activity
+            android:name=".ac2_btmanage.BluetoothMainActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".ac2_btmanage.Ac2_01_bluetooth_main"
+            android:exported="false"/>
         <!-- <activity  로그인 기능 적용 전 -->
         <!-- android:name=".ac1_applock.Ac1_01_applock_init_main" -->
         <!-- android:exported="true"> -->

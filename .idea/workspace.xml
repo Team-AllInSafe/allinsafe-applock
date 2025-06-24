@@ -45,17 +45,27 @@
           <theme>@style/Theme.Package_permission</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/ac1_01_applock_main.xml">
+        <config>
+          <theme>@style/Theme.Package_permission</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/ac1_02_activity_edit_lock_app.xml">
+        <config>
+          <theme>@style/Theme.Package_permission</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/ac1_03_app_list_item.xml">
+        <config>
+          <theme>@style/Theme.Package_permission</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/ac1_04_overlay_lock_screen.xml">
+        <config>
+          <theme>@style/Theme.Package_permission</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_ac009_user_info.xml">
-        <config>
-          <theme>@style/Theme.Package_permission</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_alarm.xml">
-        <config>
-          <theme>@style/Theme.Package_permission</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_lock_app.xml">
         <config>
           <theme>@style/Theme.Package_permission</theme>
         </config>
@@ -65,12 +75,27 @@
           <theme>@style/Theme.Package_permission</theme>
         </config>
       </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/app_list_item.xml">
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_pin_lock.xml">
         <config>
           <theme>@style/Theme.Package_permission</theme>
         </config>
       </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/overlay_lock_screen.xml">
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_pin_setup.xml">
+        <config>
+          <theme>@style/Theme.Package_permission</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/temp_activity_alarm.xml">
+        <config>
+          <theme>@style/Theme.Package_permission</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/temp_activity_pin_lock.xml">
+        <config>
+          <theme>@style/Theme.Package_permission</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/temp_activity_pin_setup.xml">
         <config>
           <theme>@style/Theme.Package_permission</theme>
         </config>
@@ -87,107 +112,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e83cd41-746b-44e6-ad03-16101e5906b4" name="Changes" comment="앱 잠금 완성 파일">
-      <change afterPath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/47a3e121f803b0c13306b62ed63cc64f4d213152/classes/org/gradle/accessors/dm/LibrariesForLibs$AndroidxCoreLibraryAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/47a3e121f803b0c13306b62ed63cc64f4d213152/classes/org/gradle/accessors/dm/LibrariesForLibs$AndroidxEspressoLibraryAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/47a3e121f803b0c13306b62ed63cc64f4d213152/classes/org/gradle/accessors/dm/LibrariesForLibs$AndroidxLibraryAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/47a3e121f803b0c13306b62ed63cc64f4d213152/classes/org/gradle/accessors/dm/LibrariesForLibs$BundleAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/47a3e121f803b0c13306b62ed63cc64f4d213152/classes/org/gradle/accessors/dm/LibrariesForLibs$FirebaseAuthLibraryAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/47a3e121f803b0c13306b62ed63cc64f4d213152/classes/org/gradle/accessors/dm/LibrariesForLibs$FirebaseFirestoreLibraryAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/47a3e121f803b0c13306b62ed63cc64f4d213152/classes/org/gradle/accessors/dm/LibrariesForLibs$FirebaseLibraryAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/47a3e121f803b0c13306b62ed63cc64f4d213152/classes/org/gradle/accessors/dm/LibrariesForLibs$GoogleGmsGooglePluginAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/47a3e121f803b0c13306b62ed63cc64f4d213152/classes/org/gradle/accessors/dm/LibrariesForLibs$GoogleGmsPluginAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/47a3e121f803b0c13306b62ed63cc64f4d213152/classes/org/gradle/accessors/dm/LibrariesForLibs$GooglePluginAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/47a3e121f803b0c13306b62ed63cc64f4d213152/classes/org/gradle/accessors/dm/LibrariesForLibs$KotlinPluginAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/47a3e121f803b0c13306b62ed63cc64f4d213152/classes/org/gradle/accessors/dm/LibrariesForLibs$PluginAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/47a3e121f803b0c13306b62ed63cc64f4d213152/classes/org/gradle/accessors/dm/LibrariesForLibs$VersionAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/47a3e121f803b0c13306b62ed63cc64f4d213152/classes/org/gradle/accessors/dm/LibrariesForLibs.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/47a3e121f803b0c13306b62ed63cc64f4d213152/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$AndroidxCoreLibraryAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/47a3e121f803b0c13306b62ed63cc64f4d213152/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$AndroidxEspressoLibraryAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/47a3e121f803b0c13306b62ed63cc64f4d213152/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$AndroidxLibraryAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/47a3e121f803b0c13306b62ed63cc64f4d213152/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$BundleAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/47a3e121f803b0c13306b62ed63cc64f4d213152/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$FirebaseAuthLibraryAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/47a3e121f803b0c13306b62ed63cc64f4d213152/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$FirebaseFirestoreLibraryAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/47a3e121f803b0c13306b62ed63cc64f4d213152/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$FirebaseLibraryAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/47a3e121f803b0c13306b62ed63cc64f4d213152/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$GoogleGmsGooglePluginAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/47a3e121f803b0c13306b62ed63cc64f4d213152/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$GoogleGmsPluginAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/47a3e121f803b0c13306b62ed63cc64f4d213152/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$GooglePluginAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/47a3e121f803b0c13306b62ed63cc64f4d213152/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$KotlinPluginAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/47a3e121f803b0c13306b62ed63cc64f4d213152/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$PluginAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/47a3e121f803b0c13306b62ed63cc64f4d213152/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$VersionAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/47a3e121f803b0c13306b62ed63cc64f4d213152/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/47a3e121f803b0c13306b62ed63cc64f4d213152/sources/org/gradle/accessors/dm/LibrariesForLibs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/47a3e121f803b0c13306b62ed63cc64f4d213152/sources/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/AndroidProjectSystem.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.kotlin/errors/errors-1750656756369.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.kotlin/errors/errors-1750656993963.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.kotlin/errors/errors-1750657070683.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.kotlin/errors/errors-1750657176491.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/google-services.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/naver/appLock/ac0_login/Ac0_01_login.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/naver/appLock/ac0_login/Ac0_02_register.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/naver/appLock/ac0_main/Ac0_00_main_init_main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/naver/appLock/ac0_main/Ac0_09_user_info.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/naver/appLock/ac0_patternpin/Ac0_03_choose_pinOrPattern.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/naver/appLock/ac0_patternpin/Ac0_04_pattern_setup.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/naver/appLock/ac0_patternpin/Ac0_05_pattern_verify.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/naver/appLock/ac0_patternpin/Ac0_06_pin_setup.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/naver/appLock/ac0_patternpin/Ac0_07_pin_verify.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/naver/appLock/ac0_patternpin/Ac0_08_pinpattern_forwarding.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/naver/appLock/ac0_patternpin/PatternLockView.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/naver/appLock/ac1_applock/AppLockAccessibilityService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bar_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bar_progress.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/btn_back.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/btn_circle_green.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/btn_round_beige.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/btn_round_blue.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/btn_round_dark_blue.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/btn_round_green.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/btn_round_red.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/btn_round_yellow.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/btn_toggle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/dlg_quit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/dtn_round_dark_blue.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/pattern_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ui_back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ui_big_warning.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ui_email.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ui_id.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ui_password.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ui_progress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ui_setting.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ui_small_warning.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ui_toggle_off.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ui_toggle_on.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/ac0_00_main_init_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/ac0_01_login.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/ac0_02_register.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/ac0_03_choose_pin_or_pattern.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/ac0_03_pattern_create.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/ac0_04_pattern_verify.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/ac0_06_pin_setup.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/ac0_07_pin_verify.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/ac0_09_user_info.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_ac009_user_info.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.4/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.4/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/generated/data_binding_base_class_source_out/debug/out/com/naver/appLock/databinding/ActivityAlarmBinding.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/generated/data_binding_base_class_source_out/debug/out/com/naver/appLock/databinding/ActivityEditLockAppBinding.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/generated/data_binding_base_class_source_out/debug/out/com/naver/appLock/databinding/ActivityMainBinding.java" beforeDir="false" />
@@ -728,20 +657,13 @@
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/naver/appLock/EditLockAppActivity$AppListAdapter.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/naver/appLock/EditLockAppActivity.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/naver/appLock/MainActivity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/naver/appLock/AlarmActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/naver/appLock/ac1_applock/AlarmActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/naver/appLock/AppLockAccessibilityService.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/naver/appLock/EditLockAppActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/naver/appLock/ac1_applock/EditLockAppActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/naver/appLock/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/naver/appLock/ac1_applock/Ac1_01_applock_init_main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_alarm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_alarm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_edit_lock_app.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_edit_lock_app.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_ac009_user_info.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_alarm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/temp_activity_alarm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_edit_lock_app.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/ac1_02_activity_edit_lock_app.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/ac1_01_applock_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/app_list_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/ac1_03_app_list_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/overlay_lock_screen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/ac1_04_overlay_lock_screen.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/libs.versions.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -822,12 +744,12 @@
     &quot;assignee&quot;: &quot;sua1897&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Team-AllInSafe/allinsafe-applock.git&quot;,
-    &quot;accountId&quot;: &quot;fc248e9c-e9fe-4b5f-bbeb-7870ac59b12e&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Team-AllInSafe/allinsafe-applock-formerge.git",
+    "accountId": "fc248e9c-e9fe-4b5f-bbeb-7870ac59b12e"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -849,7 +771,7 @@
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "feat/#5",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/dbsdu/coding_result_directory/android_studio/allinsafe-spoofing",
     "project.structure.last.edited": "Project",
@@ -1063,12 +985,12 @@
       <map>
         <entry key="com.naver.appLock">
           <value>
-            <CheckInfo lastCheckTimestamp="1750605656427" />
+            <CheckInfo lastCheckTimestamp="1750700628375" />
           </value>
         </entry>
         <entry key="com.naver.appLock.test">
           <value>
-            <CheckInfo lastCheckTimestamp="1750605656423" />
+            <CheckInfo lastCheckTimestamp="1750700628373" />
           </value>
         </entry>
       </map>

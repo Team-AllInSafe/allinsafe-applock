@@ -10,22 +10,24 @@ import android.os.Bundle
 import android.provider.Settings
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
+import com.naver.appLock.databinding.Ac101ApplockMainBinding
 import com.naver.appLock.databinding.ActivityMainBinding
 
 class Ac1_01_applock_init_main : AppCompatActivity() { @RequiresApi(Build.VERSION_CODES.TIRAMISU)
-    private lateinit var binding: ActivityMainBinding
+    private lateinit var binding: Ac101ApplockMainBinding
 
     // binding 최소 api 가 33 이라며 오류 뜨길래 TargetApi 추가
     @TargetApi(Build.VERSION_CODES.UPSIDE_DOWN_CAKE)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding= ActivityMainBinding.inflate(layoutInflater)
+        binding= Ac101ApplockMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         // 사용자가 권한을 확인하면, 화면에 뭔가 바뀔 때 마다 생기는 이벤트를 받아서 그 앱 이름을 확인함
         // 앱 이름 확인하고 잠금 대상이면 종료하는 로직은 AppLockAccessibilityService 에 있음
 
         if(AppLockAccessibilityService.Companion.onoff){
             binding.onoffbtn.text="끄기"
+
         }else{
             binding.onoffbtn.text="켜기"
         }

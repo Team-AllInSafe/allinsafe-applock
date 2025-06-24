@@ -11,6 +11,7 @@ import androidx.core.view.WindowInsetsCompat
 import com.naver.appLock.R
 import com.naver.appLock.ac0_login.Ac0_01_login
 import com.naver.appLock.ac1_applock.Ac1_01_applock_init_main
+import com.naver.appLock.ac4_screenlock.Ac4_01_screenlock_main
 import com.naver.appLock.databinding.Ac000MainInitMainBinding
 
 class Ac0_00_main_init_main : ComponentActivity() {
@@ -37,8 +38,9 @@ class Ac0_00_main_init_main : ComponentActivity() {
             // TODO: btmanage메인 액티비티 이동
         }
         binding.screenLockButton.setOnClickListener {
-            Toast.makeText(this,"screenlock start", Toast.LENGTH_SHORT).show()
             // TODO: screenlock메인 액티비티 이동
+            val intent=Intent(this@Ac0_00_main_init_main, Ac4_01_screenlock_main::class.java)
+            startActivity(intent)
         }
         binding.spoofingDetectButton.setOnClickListener {
             Toast.makeText(this,"spoofingDetect start", Toast.LENGTH_SHORT).show()

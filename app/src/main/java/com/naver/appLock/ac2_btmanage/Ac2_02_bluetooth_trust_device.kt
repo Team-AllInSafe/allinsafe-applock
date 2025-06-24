@@ -11,6 +11,7 @@ import android.content.pm.PackageManager
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.annotation.RequiresPermission
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
@@ -84,12 +85,24 @@ class Ac2_02_bluetooth_trust_device : ComponentActivity() {
         }
     }
 
+    @RequiresPermission(Manifest.permission.BLUETOOTH_CONNECT)
     override fun onResume() {
         super.onResume()
-        registerReceiver(bondStateReceiver, IntentFilter(BluetoothDevice.ACTION_BOND_STATE_CHANGED))
-        loadDeviceLists { t, b ->
-            trustedDevices = t
-            blockedDevices = b
+
+        // 1) 시스템에 이미 Bond된 모든 기기 주소를 가져오기
+        val prefs = getSharedPreferences(PREFS, MODE_PRIVATE)
+        val stored = prefs.getStringSet(TRUSTED_KEY, mutableSetOf())!!.toMutableSet()
+        val bondedNow = bluetoothAdapter
+            ?.bondedDevices
+            ?.map { it.address }
+            ?.toSet()
+            ?: emptySet()
+
+        // 2) SharedPreferences에 없던 새 주소를 추가
+        val newOnes = bondedNow - stored
+        if (newOnes.isNotEmpty()) {
+            stored.addAll(newOnes)
+            prefs.edit().putStringSet(TRUSTED_KEY, stored).apply()
         }
     }
 

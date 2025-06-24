@@ -107,71 +107,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e83cd41-746b-44e6-ad03-16101e5906b4" name="Changes" comment="앱 잠금 화면잠금 블루투스 통합">
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/checksums/checksums.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/checksums/md5-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/checksums/sha1-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/dependencies-accessors/a26656929d24cae9725d2f5dc3c4b3b79b565b24/classes/org/gradle/accessors/dm/LibrariesForLibs$AndroidxActivityLibraryAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/dependencies-accessors/a26656929d24cae9725d2f5dc3c4b3b79b565b24/classes/org/gradle/accessors/dm/LibrariesForLibs$AndroidxComposeLibraryAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/dependencies-accessors/a26656929d24cae9725d2f5dc3c4b3b79b565b24/classes/org/gradle/accessors/dm/LibrariesForLibs$AndroidxCoreLibraryAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/dependencies-accessors/a26656929d24cae9725d2f5dc3c4b3b79b565b24/classes/org/gradle/accessors/dm/LibrariesForLibs$AndroidxEspressoLibraryAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/dependencies-accessors/a26656929d24cae9725d2f5dc3c4b3b79b565b24/classes/org/gradle/accessors/dm/LibrariesForLibs$AndroidxLibraryAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/dependencies-accessors/a26656929d24cae9725d2f5dc3c4b3b79b565b24/classes/org/gradle/accessors/dm/LibrariesForLibs$AndroidxLifecycleLibraryAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/dependencies-accessors/a26656929d24cae9725d2f5dc3c4b3b79b565b24/classes/org/gradle/accessors/dm/LibrariesForLibs$AndroidxLifecycleRuntimeLibraryAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/dependencies-accessors/a26656929d24cae9725d2f5dc3c4b3b79b565b24/classes/org/gradle/accessors/dm/LibrariesForLibs$AndroidxUiLibraryAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/dependencies-accessors/a26656929d24cae9725d2f5dc3c4b3b79b565b24/classes/org/gradle/accessors/dm/LibrariesForLibs$AndroidxUiTestLibraryAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/dependencies-accessors/a26656929d24cae9725d2f5dc3c4b3b79b565b24/classes/org/gradle/accessors/dm/LibrariesForLibs$AndroidxUiToolingLibraryAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/dependencies-accessors/a26656929d24cae9725d2f5dc3c4b3b79b565b24/classes/org/gradle/accessors/dm/LibrariesForLibs$BundleAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/dependencies-accessors/a26656929d24cae9725d2f5dc3c4b3b79b565b24/classes/org/gradle/accessors/dm/LibrariesForLibs$FirebaseAuthLibraryAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/dependencies-accessors/a26656929d24cae9725d2f5dc3c4b3b79b565b24/classes/org/gradle/accessors/dm/LibrariesForLibs$FirebaseFirestoreLibraryAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/dependencies-accessors/a26656929d24cae9725d2f5dc3c4b3b79b565b24/classes/org/gradle/accessors/dm/LibrariesForLibs$FirebaseLibraryAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/dependencies-accessors/a26656929d24cae9725d2f5dc3c4b3b79b565b24/classes/org/gradle/accessors/dm/LibrariesForLibs$GoogleGmsGooglePluginAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/dependencies-accessors/a26656929d24cae9725d2f5dc3c4b3b79b565b24/classes/org/gradle/accessors/dm/LibrariesForLibs$GoogleGmsPluginAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/dependencies-accessors/a26656929d24cae9725d2f5dc3c4b3b79b565b24/classes/org/gradle/accessors/dm/LibrariesForLibs$GooglePluginAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/dependencies-accessors/a26656929d24cae9725d2f5dc3c4b3b79b565b24/classes/org/gradle/accessors/dm/LibrariesForLibs$KotlinPluginAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/dependencies-accessors/a26656929d24cae9725d2f5dc3c4b3b79b565b24/classes/org/gradle/accessors/dm/LibrariesForLibs$PluginAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/dependencies-accessors/a26656929d24cae9725d2f5dc3c4b3b79b565b24/classes/org/gradle/accessors/dm/LibrariesForLibs$VersionAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/dependencies-accessors/a26656929d24cae9725d2f5dc3c4b3b79b565b24/classes/org/gradle/accessors/dm/LibrariesForLibs.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/dependencies-accessors/a26656929d24cae9725d2f5dc3c4b3b79b565b24/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$AndroidxActivityLibraryAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/dependencies-accessors/a26656929d24cae9725d2f5dc3c4b3b79b565b24/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$AndroidxComposeLibraryAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/dependencies-accessors/a26656929d24cae9725d2f5dc3c4b3b79b565b24/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$AndroidxCoreLibraryAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/dependencies-accessors/a26656929d24cae9725d2f5dc3c4b3b79b565b24/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$AndroidxEspressoLibraryAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/dependencies-accessors/a26656929d24cae9725d2f5dc3c4b3b79b565b24/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$AndroidxLibraryAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/dependencies-accessors/a26656929d24cae9725d2f5dc3c4b3b79b565b24/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$AndroidxUiLibraryAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/dependencies-accessors/a26656929d24cae9725d2f5dc3c4b3b79b565b24/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$AndroidxUiTestLibraryAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/dependencies-accessors/a26656929d24cae9725d2f5dc3c4b3b79b565b24/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$BundleAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/dependencies-accessors/a26656929d24cae9725d2f5dc3c4b3b79b565b24/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$FirebaseAuthLibraryAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/dependencies-accessors/a26656929d24cae9725d2f5dc3c4b3b79b565b24/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$FirebaseLibraryAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/dependencies-accessors/a26656929d24cae9725d2f5dc3c4b3b79b565b24/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$GoogleGmsGooglePluginAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/dependencies-accessors/a26656929d24cae9725d2f5dc3c4b3b79b565b24/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$GoogleGmsPluginAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/dependencies-accessors/a26656929d24cae9725d2f5dc3c4b3b79b565b24/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$GooglePluginAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/dependencies-accessors/a26656929d24cae9725d2f5dc3c4b3b79b565b24/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$KotlinPluginAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/dependencies-accessors/a26656929d24cae9725d2f5dc3c4b3b79b565b24/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$PluginAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/dependencies-accessors/a26656929d24cae9725d2f5dc3c4b3b79b565b24/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock$VersionAccessors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/dependencies-accessors/a26656929d24cae9725d2f5dc3c4b3b79b565b24/classes/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/dependencies-accessors/a26656929d24cae9725d2f5dc3c4b3b79b565b24/metadata.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/dependencies-accessors/a26656929d24cae9725d2f5dc3c4b3b79b565b24/sources/org/gradle/accessors/dm/LibrariesForLibs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/dependencies-accessors/a26656929d24cae9725d2f5dc3c4b3b79b565b24/sources/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/dependencies-accessors/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.10/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/naver/appLock/ac2_btmanage/Ac2_01_bluetooth_main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/naver/appLock/ac2_btmanage/Ac2_02_bluetooth_trust_device.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/naver/appLock/ac2_btmanage/BluetoothMainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/generated/data_binding_base_class_source_out/debug/out/com/naver/appLock/databinding/ActivityAlarmBinding.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/generated/data_binding_base_class_source_out/debug/out/com/naver/appLock/databinding/ActivityEditLockAppBinding.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/generated/data_binding_base_class_source_out/debug/out/com/naver/appLock/databinding/ActivityMainBinding.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/data_binding_base_class_source_out/debug/out/com/naver/appLock/databinding/ActivityMainBinding.java" afterDir="false" />
@@ -676,11 +612,6 @@
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/naver/appLock/EditLockAppActivity$AppListAdapter.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/naver/appLock/EditLockAppActivity.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/naver/appLock/MainActivity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/naver/appLock/ac0_main/Ac0_00_main_init_main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/naver/appLock/ac0_main/Ac0_00_main_init_main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/libs.versions.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1025,7 +956,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750726354139</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="앱 잠금 화면잠금 블루투스 통합">
+      <option name="closed" value="true" />
+      <created>1750734624570</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1750734624570</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

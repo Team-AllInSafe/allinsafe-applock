@@ -12,11 +12,11 @@ import android.view.ViewGroup
 import android.widget.BaseAdapter
 import androidx.appcompat.app.AppCompatActivity
 import com.naver.appLock.ac1_applock.AppLockAccessibilityService
-import com.naver.appLock.databinding.ActivityEditLockAppBinding
-import com.naver.appLock.databinding.AppListItemBinding
+import com.naver.appLock.databinding.Ac102ActivityEditLockAppBinding
+import com.naver.appLock.databinding.Ac103AppListItemBinding
 
 class EditLockAppActivity : AppCompatActivity() {
-    private lateinit var binding: ActivityEditLockAppBinding
+    private lateinit var binding: Ac102ActivityEditLockAppBinding
     data class AppInfo(
         val packageName: String,
         val name: String,
@@ -25,7 +25,7 @@ class EditLockAppActivity : AppCompatActivity() {
     )
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding= ActivityEditLockAppBinding.inflate(layoutInflater)
+        binding= Ac102ActivityEditLockAppBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         //초기화면에 앱 목록 짜넣기
@@ -58,10 +58,10 @@ class EditLockAppActivity : AppCompatActivity() {
         override fun getItemId(position: Int) = position.toLong()
 
         override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
-            val binding: AppListItemBinding = if (convertView == null) {
-                AppListItemBinding.inflate(LayoutInflater.from(context), parent, false)
+            val binding: Ac103AppListItemBinding = if (convertView == null) {
+                Ac103AppListItemBinding.inflate(LayoutInflater.from(context), parent, false)
             } else {
-                AppListItemBinding.bind(convertView)
+                Ac103AppListItemBinding.bind(convertView)
             }
 
             val app = apps[position]

@@ -8,6 +8,13 @@
     <uses-permission
         android:name="android.permission.QUERY_ALL_PACKAGES"
         tools:ignore="QueryAllPackagesPermission" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+    <uses-permission android:name="neverForLocation" />
 
     <application
         android:allowBackup="true"
@@ -54,7 +61,20 @@
             android:exported="false" />
         <activity
             android:name=".ac1_applock.Ac1_01_applock_init_main"
-            android:exported="false" /> <!-- <activity  로그인 기능 적용 전 -->
+            android:exported="false" />
+        <activity
+            android:name=".ac4_screenlock.Ac4_01_screenlock_main"
+            android:exported="false" />
+        <activity
+            android:name=".ac2_btmanage.Ac2_02_bluetooth_trust_device"
+            android:exported="false" />
+        <activity
+            android:name=".ac2_btmanage.BluetoothMainActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".ac2_btmanage.Ac2_01_bluetooth_main"
+            android:exported="false"/>
+        <!-- <activity  로그인 기능 적용 전 -->
         <!-- android:name=".ac1_applock.Ac1_01_applock_init_main" -->
         <!-- android:exported="true"> -->
         <!-- <intent-filter> -->
@@ -84,6 +104,47 @@
                 android:name="android.accessibilityservice"
                 android:resource="@xml/accessibility_service_config" />
         </service>
-    </application>
+<!--        <intent-filter>-->
+<!--            <action android:name="android.intent.action.MAIN" />-->
+<!--            <category android:name="android.intent.category.LAUNCHER" />-->
+<!--        </intent-filter>-->
 
+
+    <!-- ✅ PIN 설정 액티비티 -->
+    <activity
+        android:name="com.naver.appLock.ac4_screenlock.pinlock.PinSetupActivity"
+        android:exported="false"
+        android:label="PIN 설정"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+    <!-- ✅ PIN 입력 액티비티 -->
+    <activity
+        android:name="com.naver.appLock.ac4_screenlock.pinlock.PinLockActivity"
+        android:exported="false"
+        android:label="PIN 인증"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+    <!-- ✅ Device Admin 수신자 -->
+    <receiver
+        android:name="com.naver.appLock.ac4_screenlock.MyDeviceAdminReceiver"
+        android:permission="android.permission.BIND_DEVICE_ADMIN"
+        android:exported="false">
+        <meta-data
+            android:name="android.app.device_admin"
+            android:resource="@xml/device_admin_receiver" />
+        <intent-filter>
+            <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+        </intent-filter>
+    </receiver>
+
+    <!-- ✅ 잠금 해제 감지 리시버 -->
+    <receiver
+        android:name="com.naver.appLock.ac4_screenlock.receiver.LockStatusReceiver"
+        android:enabled="true"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.USER_PRESENT" />
+        </intent-filter>
+    </receiver>
+    </application>
 </manifest>
